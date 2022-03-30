@@ -1,0 +1,50 @@
+body{
+    font-family:Poppins,sans-serif;
+    font-size: 16px;
+}
+a {
+text-decoration:none;
+font-family:Poppins,sans-serif;
+color:white;
+}
+
+button{
+    background-color:#6110bd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size:12px;
+    font-family:Poppins,sans-serif;
+}
+
+div{
+    margin-top: 60px;
+}
+
+button:hover {
+    background-color:#4c1e81;
+
+  }
+
+#botonzoo{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:10px; 
+}
+
+#botonzoo button{
+   background-color:#47d63a;
+   &hover:
+}
+
+#botonzoo button:hover{
+    background-color:#195913;
+ }
